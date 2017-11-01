@@ -1,0 +1,210 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Trocchi', serif;
+}
+
+#about, #work {
+  height: 500px;
+}
+
+#skills {
+  height: 400px;
+}
+
+#contact {
+  height: 300px;
+}
+
+h1 {
+  color: #001a23;
+  font-family: 'Trocchi', serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+h2 {
+  color: #001a23;
+  font-family: 'Trocchi', serif;
+  font-size: 25px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  background-color: #7a9e7e;
+  height: 150px;
+}
+
+header img {
+  padding-top: 30px;
+  float: left;
+}
+
+header h1 {
+  padding: 20px 20px;
+  float:left;
+}
+
+header span {
+  color: #001a23;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  float:left;
+}
+
+nav {
+    float: right;
+    padding: 40px 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #001a23;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 40px 0;
+}
+
+#about p {
+  color: #001a23;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-right: 50px;
+}
+
+#about p span {
+  font-weight: bold;
+}
+
+#about h4 {
+  color: #001a23;
+  font-family: 'Trocchi', serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#about img {
+  padding: 50px 100px;
+  float: left;
+}
+
+/***** SKILLS *****/
+
+#skills .full-width {
+  padding: 0px 0px;
+}
+
+#skills .third-width {
+  padding: 20px 0px;
+}
+
+#skills img {
+  float: left;
+}
+
+#skills h3 {
+  color: #31493c;
+  font-family: 'Trocchi', serif;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  padding-left: 20px;
+}
+
+#skills p {
+  color: #001a23;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-right: 50px;
+  float: left;
+}
+
+/***** SKILLS *****/
+
+#work .full-width {
+  padding: 20px 0px;
+}
+
+#work .third-width {
+  padding: 20px 0px;
+}
+
+#work {
+  background-color: #e8f1f2;
+  text-align: center;
+}
+
+#work p {
+  color: #001a23;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+  padding: 20px 0;
+}
+
+#contact p {
+  color: #001a23;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 0px;
+}
+
+#contact a {
+  color: #001a23;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
